@@ -23,7 +23,7 @@ source=("https://downloads.sourceforge.net/keepass/KeePass-$pkgver-Source.zip"
         'keepass.xml')
 
 	
-repare() {
+prepare() {
   # Extract icons
   icotool -x KeePass/KeePass.ico
 
